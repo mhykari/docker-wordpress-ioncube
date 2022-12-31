@@ -1,3 +1,4 @@
+# Set PHP Version
 ARG PHP_VER=7.2
 FROM wordpress:php${PHP_VER}-apache
 MAINTAINER Hossein Yeganeh <mhykari@gmail.com>
