@@ -1,6 +1,6 @@
 ARG PHP_VER=7.2
 FROM wordpress:php${PHP_VER}-apache
-MAINTAINER Sebastian Plocek <sebastian@plocek.at>
+MAINTAINER Hossein Yeganeh <mhykari@gmail.com>
 
 ARG PHP_VER
 
