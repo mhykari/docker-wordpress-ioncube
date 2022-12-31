@@ -2,7 +2,7 @@
 This image is based on the [official WordPress image](https://hub.docker.com/_/wordpress/). It includes the [ionCube Loader](https://www.ioncube.com/loaders.php) and increases the memory limit to use this image with the WordPress extension [Memberium](https://memberium.com/). In addition the maximum upload file size is increased to 128MB.
 
 ## Supported (tested) tags
-Currently the following tags can be used. The image builds on the WordPress image with the same tag.
+Currently the following tags can be used. The image builds on the WordPress image with the same tag. You can also change the php version in the Dockerfile and build.yml file to create and use the image with different php versions.
 
 * `php7.0-apache`
 * `php7.1-apache`
