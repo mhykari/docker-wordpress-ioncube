@@ -10,6 +10,7 @@ Currently the following tags can be used. The image builds on the WordPress imag
 * `php7.4-apache`
 
 ## How to use this image
+You can use the Dockerfile path to build the image in your own docker-compose.yml file, or you can run the build.yml file to create the image and then use that in your docker-compose.yml file
 The image can be used identically to the official WordPress image. You can take a look at their description or use a **docker-compose.yml** similar like this:
 
 ```yml
