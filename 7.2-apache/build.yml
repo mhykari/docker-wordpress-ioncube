@@ -4,6 +4,7 @@ services:
   wordpress-ioncube:
     build:
       context: .
+# Set PHP Version and Tag
       args:
         PHP_VER: 7.2
     image: mhykari/wordpress-ioncube:7.2-apache
